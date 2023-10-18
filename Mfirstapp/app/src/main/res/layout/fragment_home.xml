@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/LogoCuadrado"
+        android:layout_width="1160dp"
+        android:layout_height="1021dp"
+        android:rotation="90"
+        android:src="@drawable/tema_claro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/LogInButton"
+        android:layout_width="248dp"
+        android:layout_height="52dp"
+        android:fontFamily="@font/amita"
+        android:foregroundTint="#673AB7"
+        android:shadowColor="#90902EA1"
+        android:text="Log in Soy VioletaApp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/Slogansp"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="@+id/Slogansp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <Button
+        android:id="@+id/logInButton3"
+        android:layout_width="248dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="17dp"
+        android:fontFamily="@font/amita"
+        android:foregroundTint="#673AB7"
+        android:shadowColor="#90902EA1"
+        android:text="Log with Gmail"
+        android:textAlignment="center"
+        android:visibility="visible"
+        app:iconTint="#77FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/logInButton3"
+        app:layout_constraintEnd_toEndOf="@+id/Slogansp"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintStart_toStartOf="@+id/Slogansp"
+        app:layout_constraintTop_toBottomOf="@+id/LogInButton" />
+
+    <Button
+        android:id="@+id/logInButton3"
+        android:layout_width="248dp"
+        android:layout_height="52dp"
+        android:fontFamily="@font/amita"
+        android:foregroundTint="#673AB7"
+        android:shadowColor="#90902EA1"
+        android:text="Log in with FB"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/Slogansp"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="@+id/Slogansp"
+        tools:layout_editor_absoluteY="632dp" />
+
+    <TextView
+        android:id="@+id/Slogansp"
+        android:layout_width="374dp"
+        android:layout_height="171dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/amita"
+        android:freezesText="false"
+        android:text="@string/soy"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="153dp"
+        android:layout_height="233dp"
+        android:background="#00FFFFFF"
+        android:outlineAmbientShadowColor="@color/purple_200"
+        android:src="@drawable/soy_violetapp"
+        android:tint="#57673AB7"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/MainScreen"
+        android:layout_width="407dp"
+        android:layout_height="736dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

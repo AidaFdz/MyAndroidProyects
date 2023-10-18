@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">Mfirstapp</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <sting  name="app_languaje">Languaje</sting>
+    <string name="soy">Nos quitaron tanto que nos quitaron hasta el miedo</string>
+
+
+</resources>
